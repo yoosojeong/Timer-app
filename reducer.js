@@ -76,7 +76,7 @@ function applyAddSecond(state) {
             elapsedTime: state.elapsedTime + 1 //1초 추가
         }
     }else {
-          return {
+          return {  
               ...state,
               isPlaying: false
         }  
